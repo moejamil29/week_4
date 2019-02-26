@@ -1,0 +1,151 @@
+html {
+    background: url(..//images/pin1.jpg) no-repeat top center fixed;
+    background-size: 75%;
+    background-color: rgb(238, 237, 237);
+}
+
+h1 {
+    font-family: 'Righteous', cursive;
+}
+  
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Acme', sans-serif;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+}
+
+.keys {
+    display: flex;
+    position: fixed;
+    width: -68%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 21%;
+}
+  
+.key {
+    border: .2rem solid black;
+    border-radius: 9.5rem;
+    margin: 2rem;
+    font-size: 1rem; 
+    padding: 1rem 0.5rem;
+    transition: all .07s ease;
+    width: 10rem;
+    text-align: center;
+    color: white;
+    background: rgb(68, 137, 192);
+    text-shadow: 0 0 1.5rem black; 
+}
+  
+#boomBtn:hover {
+    background-color: #ffc600;
+}
+
+#boomBtn:active {
+    background-color: #ffc600;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#clapBtn:hover {
+    background-color: #ffc600;
+}
+
+#clapBtn:active {
+    background-color: #ffc600;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#hiHatBtn:hover {
+    background-color: #ffc600;
+}
+
+#hiHatBtn:active {
+    background-color: #ffc600;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#kickBtn:hover {
+    background-color: #ffc600;
+}
+
+#kickBtn:active {
+    background-color: #ffc600;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#openHatBtn:hover {
+    background-color:#ffc600;
+}
+
+#openHatBtn:active {
+    background-color:#ffc600;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#rideBtn:hover {
+    background-color: #ffc600;
+}
+
+#rideBtn:active {
+    background-color: #ffc600;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#snareBtn:hover {
+    background-color: #ffc600
+}
+
+#snareBtn:active {
+    background-color: #ffc600;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#tinkBtn:hover {
+    background-color: #ffc600;
+}
+
+#tinkBtn:active {
+    background-color: #ffc600;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+        
+#tomBtn:hover {
+    background-color: #ffc600;
+}
+
+#tomBtn:active {
+    background-color: #ffc600;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+}
+  
+kbd {
+    display: block;
+}
+  
+.sound {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: #ffc600; 
+}

@@ -1,0 +1,27 @@
+
+
+body{
+    background: radial-gradient(255, 200, 0, 1), black;
+    text-align: center;
+}
+    
+time{
+    height: 300px;
+    width: 300px;
+    position: fixed;
+    padding: 0;
+    list-style-type: none;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    border: 1px red;
+    border-radius: 500px;
+    &::after,&::before{
+        content: "";
+        position: absolute;
+        height: 0;
+
+    }
+}
